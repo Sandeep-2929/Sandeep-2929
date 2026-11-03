@@ -1,38 +1,56 @@
 <div align="center">
-  <img src="./dashboard-banner.svg" alt="DevOps engineer dashboard" width="100%" />
+  <img src="./hero-banner.svg" alt="Sandeep M - DevOps and Platform Engineer" width="100%" />
 
-  ![Status](https://img.shields.io/badge/status-open_to_opportunities-73bf69?style=flat-square)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-  [![Email](https://img.shields.io/badge/Email-contact-f5a623?style=flat-square&logo=gmail&logoColor=white)](mailto:you@example.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/0680-sandeep-m)
+  [![GitHub](https://img.shields.io/badge/GitHub-Sandeep--2929-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sandeep-2929)
+  ![Status](https://img.shields.io/badge/Status-Open_to_opportunities-2ea043?style=for-the-badge)
 </div>
 
----
+<br>
 
-## 📄 profile.yaml
+## 👋 About
 
-```yaml
-apiVersion: v1
-kind: Engineer
-metadata:
-  name: YOUR NAME
-  role: DevOps / Platform / SRE
-  experience: X+ years
-spec:
-  focus:
-    - CI/CD pipeline design and optimisation
-    - Kubernetes platform operations
-    - Infrastructure as Code (Terraform)
-    - Observability and incident response
-    - DevSecOps and supply-chain security
-  principles:
-    - "Automate the toil, document the exceptions"
-    - "If it isn't monitored, it isn't production"
-    - "Immutable infrastructure, repeatable deployments"
-    - "Blameless postmortems, measurable improvements"
-  currentlyLearning: [eBPF, Platform Engineering, FinOps]
-```
+I'm **Sandeep M**, a DevOps and Platform engineer. I design and run the delivery pipelines, cloud infrastructure and observability that let teams release often, recover quickly and sleep well.
 
----
+I care about **repeatable infrastructure**, **fast feedback loops** and **security that ships with the code**, not bolted on afterwards.
+
+<br>
+
+## 🧩 What I Do
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### ⚙️ Delivery Automation
+- CI/CD pipeline design and optimisation
+- GitOps workflows with Argo CD
+- Release strategies: blue-green, canary, rollback
+- Build caching and pipeline speed-ups
+
+</td>
+<td width="33%" valign="top">
+
+### ☁️ Cloud &amp; Platform
+- Infrastructure as Code with Terraform
+- Kubernetes operations and Helm packaging
+- Multi-environment AWS / Azure setups
+- Configuration management with Ansible
+
+</td>
+<td width="33%" valign="top">
+
+### 🛡️ Reliability &amp; Security
+- Monitoring and alerting (Prometheus, Grafana)
+- SLOs, runbooks and incident response
+- Image scanning, secrets and policy checks
+- Blameless postmortems
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ## 🔄 How I Ship
 
@@ -42,57 +60,56 @@ flowchart LR
     B --> C[Build & Scan Image]
     C --> D[IaC Plan & Policy Check]
     D --> E[Deploy to Staging]
-    E --> F[Smoke & Integration Tests]
+    E --> F[Integration Tests]
     F --> G[Progressive Rollout]
     G --> H[Observe & Auto-Rollback]
 ```
 
----
+<br>
 
-## 🧰 Toolchain
+## 🧰 Tech Stack
 
-| Layer | Tools |
+| | |
 |---|---|
-| **Cloud** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white) |
-| **Containers** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white) |
-| **IaC & Config** | ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) |
-| **CI/CD** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white) |
-| **Observability** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![ELK](https://img.shields.io/badge/ELK-005571?style=flat-square&logo=elastic&logoColor=white) |
-| **Security** | ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white) ![Vault](https://img.shields.io/badge/Vault-000000?style=flat-square&logo=vault&logoColor=white) ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white) |
-| **Scripting** | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+| **Cloud** | <img src="https://skillicons.dev/icons?i=aws,azure,gcp&theme=dark" alt="Cloud" /> |
+| **Containers** | <img src="https://skillicons.dev/icons?i=docker,kubernetes&theme=dark" alt="Containers" /> |
+| **IaC &amp; Config** | <img src="https://skillicons.dev/icons?i=terraform,ansible&theme=dark" alt="IaC" /> |
+| **CI/CD** | <img src="https://skillicons.dev/icons?i=githubactions,jenkins,gitlab&theme=dark" alt="CI/CD" /> |
+| **Observability** | <img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" alt="Observability" /> |
+| **Scripting &amp; OS** | <img src="https://skillicons.dev/icons?i=linux,bash,python,go,git&theme=dark" alt="Scripting" /> |
 
----
+<br>
 
 ## 🚀 Featured Projects
 
-| Project | What it does | Stack |
+| Project | What it does | Built with |
 |---|---|---|
-| [**project-one**](https://github.com/YOUR_USERNAME/project-one) | Multi-environment AWS infrastructure with reusable Terraform modules | `Terraform` `AWS` `GitHub Actions` |
-| [**project-two**](https://github.com/YOUR_USERNAME/project-two) | GitOps Kubernetes deployments with automated rollbacks | `Argo CD` `Helm` `EKS` |
-| [**project-three**](https://github.com/YOUR_USERNAME/project-three) | Monitoring stack with SLO-based alerting and dashboards | `Prometheus` `Grafana` |
-| [**project-four**](https://github.com/YOUR_USERNAME/project-four) | CI pipeline with image scanning, SAST and policy gates | `Jenkins` `Trivy` `SonarQube` |
+| [**project-one**](https://github.com/Sandeep-2929/project-one) | Multi-environment AWS infrastructure from reusable Terraform modules | `Terraform` `AWS` `GitHub Actions` |
+| [**project-two**](https://github.com/Sandeep-2929/project-two) | GitOps Kubernetes deployments with automated rollback | `Argo CD` `Helm` `Kubernetes` |
+| [**project-three**](https://github.com/Sandeep-2929/project-three) | Monitoring stack with SLO-based alerting and dashboards | `Prometheus` `Grafana` |
+| [**project-four**](https://github.com/Sandeep-2929/project-four) | CI pipeline with image scanning, SAST and policy gates | `Jenkins` `Trivy` `SonarQube` |
 
----
+<br>
 
-## 📊 GitHub Activity
+## 📊 GitHub Stats
 
 <div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true" />
-
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Sandeep-2929&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sandeep-2929&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
 </div>
 
----
+<br>
 
-## 📝 Runbook: Working With Me
+## 🤝 Let's Connect
 
-- **Best contact:** LinkedIn or email: `you@example.com`
-- **Open to:** DevOps/SRE roles, open-source contributions, platform tooling collaboration
-- **Ask me about:** Terraform module design, Kubernetes troubleshooting, CI/CD optimisation
+I'm open to **DevOps, Platform and SRE roles**, and to collaborating on open-source infrastructure tooling.
+
+Ask me about **Terraform module design**, **Kubernetes troubleshooting** and **CI/CD optimisation**.
 
 <div align="center">
 
-⭐ If something here is useful, feel free to star a repo.
+[![Message me on LinkedIn](https://img.shields.io/badge/Message_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/0680-sandeep-m)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,100:2ea043&height=90&section=footer" width="100%" alt="" />
 
 </div>
