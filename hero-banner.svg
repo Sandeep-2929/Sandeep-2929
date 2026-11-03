@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="Sandeep M - DevOps and Platform Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111c33"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ea043"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.85" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.05" cy="0.95" r="0.6">
+      <stop offset="0" stop-color="#2ea043" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#2ea043" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <path id="flow" d="M742 70 L742 270"/>
+  </defs>
+  <style>
+    text{font-family:Inter,'Segoe UI',Helvetica,Arial,sans-serif}
+    .mono{font-family:'JetBrains Mono','Fira Code',Consolas,monospace}
+    .eyebrow{fill:#3fb950;font-size:12px;font-weight:600;letter-spacing:.28em}
+    .name{fill:#f0f6fc;font-size:50px;font-weight:800;letter-spacing:-.5px}
+    .tag{fill:#9fb0c5;font-size:16px}
+    .chip{fill:#16233b;stroke:#2a3a57;stroke-width:1}
+    .chipt{fill:#8fb8f5;font-size:12px}
+    .lbl{fill:#8b9bb0;font-size:12px}
+    .foot{fill:#6f819b;font-size:12px}
+  </style>
+
+  <rect width="900" height="340" rx="14" fill="url(#bg)"/>
+  <rect width="900" height="340" rx="14" fill="url(#grid)"/>
+  <rect width="900" height="340" rx="14" fill="url(#glow1)"/>
+  <rect width="900" height="340" rx="14" fill="url(#glow2)"/>
+  <rect x="0.5" y="0.5" width="899" height="339" rx="14" fill="none" stroke="#25324b"/>
+
+  <!-- left: identity -->
+  <rect x="48" y="62" width="36" height="3" rx="1.5" fill="url(#line)"/>
+  <text x="48" y="92" class="eyebrow">DEVOPS · PLATFORM · SRE</text>
+  <text x="46" y="150" class="name">Sandeep M</text>
+  <text x="48" y="184" class="tag">Building reliable, secure and automated</text>
+  <text x="48" y="206" class="tag">delivery platforms for modern engineering teams.</text>
+
+  <g class="mono">
+    <rect class="chip" x="48" y="232" width="96" height="28" rx="14"/><text class="chipt mono" x="96" y="250" text-anchor="middle">Kubernetes</text>
+    <rect class="chip" x="154" y="232" width="90" height="28" rx="14"/><text class="chipt mono" x="199" y="250" text-anchor="middle">Terraform</text>
+    <rect class="chip" x="254" y="232" width="60" height="28" rx="14"/><text class="chipt mono" x="284" y="250" text-anchor="middle">CI/CD</text>
+    <rect class="chip" x="324" y="232" width="118" height="28" rx="14"/><text class="chipt mono" x="383" y="250" text-anchor="middle">Observability</text>
+    <rect class="chip" x="452" y="232" width="90" height="28" rx="14"/><text class="chipt mono" x="497" y="250" text-anchor="middle">DevSecOps</text>
+  </g>
+
+  <!-- right: animated delivery pipeline -->
+  <line x1="742" y1="70" x2="742" y2="270" stroke="url(#line)" stroke-width="2" opacity="0.55"/>
+  <g>
+    <circle cx="742" cy="70" r="8" fill="#0b1220" stroke="#3fb950" stroke-width="2.5"/>
+    <circle cx="742" cy="120" r="8" fill="#0b1220" stroke="#3fb950" stroke-width="2.5"/>
+    <circle cx="742" cy="170" r="8" fill="#0b1220" stroke="#3fb950" stroke-width="2.5"/>
+    <circle cx="742" cy="220" r="8" fill="#0b1220" stroke="#58a6ff" stroke-width="2.5"/>
+    <circle cx="742" cy="270" r="8" fill="#0b1220" stroke="#58a6ff" stroke-width="2.5"/>
+  </g>
+  <g class="mono">
+    <text x="762" y="74" class="lbl mono">commit</text>
+    <text x="762" y="124" class="lbl mono">build &amp; test</text>
+    <text x="762" y="174" class="lbl mono">scan</text>
+    <text x="762" y="224" class="lbl mono">deploy</text>
+    <text x="762" y="274" class="lbl mono">observe</text>
+  </g>
+  <circle r="5" fill="#3fb950">
+    <animateMotion dur="4s" repeatCount="indefinite"><mpath href="#flow"/></animateMotion>
+    <animate attributeName="fill" values="#3fb950;#3fb950;#58a6ff;#58a6ff" keyTimes="0;0.5;0.6;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="12" fill="none" stroke="#3fb950" stroke-opacity="0.5">
+    <animateMotion dur="4s" repeatCount="indefinite"><mpath href="#flow"/></animateMotion>
+    <animate attributeName="stroke" values="#3fb950;#3fb950;#58a6ff;#58a6ff" keyTimes="0;0.5;0.6;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- footer bar -->
+  <line x1="48" y1="296" x2="852" y2="296" stroke="#25324b"/>
+  <circle cx="54" cy="316" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="66" y="320" class="foot">Open to opportunities</text>
+  <text x="852" y="320" class="foot mono" text-anchor="end">github.com/Sandeep-2929  ·  linkedin.com/in/0680-sandeep-m</text>
+</svg>
